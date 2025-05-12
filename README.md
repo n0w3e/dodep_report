@@ -129,7 +129,7 @@
 ### Этап 3: Написание примеров программ и документации
 Ниже приведены примеры программ, демонстрирующие возможности языка.
 
-**[Пример 1: Базовые арифметические операции ](examples/arithmetic.fsx)**
+**[Пример 1: Базовые арифметические операции ](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/arithmetic.fsx)**
 ```
 (begin
   (define calc
@@ -144,7 +144,7 @@
 
 Результат: `4`.
 
-**[Пример 2: Замыкания и let](examples/closures.fsx)**
+**[Пример 2: Замыкания и let](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/closures.fsx)**
 ```
 (begin
   (define make-adder (lambda (x) (lambda (y) (+ x y))))
@@ -156,7 +156,7 @@
 
 Результат: `8`.
 
-**[Пример 3: Условные выражения](examples/conditions.fsx)**
+**[Пример 3: Условные выражения](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/conditions.fsx)**
 ```
 (begin
   (if (> 10 5) 
@@ -166,7 +166,7 @@
 
 Результат: `Верно`.
 
-**[Пример 4: Факториал через `define`](examples/factorial.fsx)**
+**[Пример 4: Факториал через `define`](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/factorial.fsx)**
 ```
 (begin
   (define (fact n)
@@ -178,7 +178,7 @@
 
 Результат: `120`.
 
-**[Пример 5: Фибоначчи](examples/fibonacci.fsx)**
+**[Пример 5: Фибоначчи](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/fibonacci.fsx)**
 ```
 (begin
   (define fib-impl
@@ -196,7 +196,7 @@
 
 Результат: `55`.
 
-**[Пример 6: Лямбда-функции](examples/lambda.fsx)**
+**[Пример 6: Лямбда-функции](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/lambda.fsx)**
 ```
 (begin
   (define square (lambda (x) (* x x)))
@@ -205,7 +205,7 @@
 
 Результат: `25`.
 
-**[Пример 7: Работа со списками](examples/lists.fsx)**
+**[Пример 7: Работа со списками](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/lists.fsx)**
 ```
 (begin
   (define my-list (list 1 2 3 4))
@@ -215,7 +215,7 @@
 
 Результат: `(1 (2 3 4))`.
 
-**[Пример 8: Логические операции](examples/logical.fsx)**
+**[Пример 8: Логические операции](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/logical.fsx)**
 ```
 (begin
   (define logical-test
@@ -229,7 +229,7 @@
 
 Результат: `#f #t #t`.
 
-**[Пример 9: Использование `map`](examples/map.fsx)**
+**[Пример 9: Использование `map`](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/map.fsx)**
 ```
 (begin
   (define double (lambda (x) (* 2 x)))
@@ -245,7 +245,7 @@
 
 Результат: `2 4 6`.
 
-**[Пример 10: Сумма элементов списка](examples/sumList.fsx)**
+**[Пример 10: Сумма элементов списка](https://github.com/MAILabs-Education-2025/fp-compiler-coursework-dodep/blob/develop-interpreter/examples/sumList.fsx)**
 ```
 (sum (list 1 2 3 4 5))
 ```
